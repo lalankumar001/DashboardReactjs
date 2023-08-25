@@ -1,0 +1,15 @@
+.SideNav{
+    height: 100vh;
+}
+.SideNav .nav-item:hover{
+   scroll-behavior: smooth;
+}
+a{
+    width: 120%;
+    border-radius: 60px;
+}
+a:hover{
+    background-color:#396ea6;
+    color: white;
+    scroll-behavior: smooth;
+}
