@@ -11,7 +11,7 @@ import SideNav from '../src/Components/SideNavbar/SideNavbar'
 // import Navbar from '../src/Components/Navbar/Navbar'
 import './App.css'
 import DashboardHome from './Components/DashboardHome/DashboardHome';
-import DarkMode from './Components/DarkMode/DarkMode';
+import Controlpannel from './Components/ControlPannel/ControlPannel';
 
 function App() {
 
@@ -19,9 +19,9 @@ function App() {
     <div>
      <div className="row w-100 ForBg">
         <div className="col-2"> <SideNav /></div>
-        <div className="col-8" ><DashboardHome /></div> 
+        <div className="col-8" ><Controlpannel /></div> 
       </div>
-
+    {/* <div className="w-75 mx-5 mb-5"><DashboardHome /></div> */}
    </div>
   )
 }

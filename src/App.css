@@ -4,14 +4,14 @@
 .ForBg{
       /* This img is used for dashboard Backgound  */
     background-image: url('./assets/Background_dashboard.svg');
-    height: 140vh;
+    height: 320vh;
 }
 .Dashboard{
-    height: 132vh;
+    height: 286vh;
     width: 123%;
     position: absolute;
     background-color: #f5f5f5;
-    border-radius: 5%;
+    border-radius: 2.5%;
     margin-top: 1.5%;
 }
 .DashBoard_Nav_link{
